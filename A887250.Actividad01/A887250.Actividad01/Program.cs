@@ -10,8 +10,19 @@ namespace A887250.Actividad01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hola Mundo");
+            Console.WriteLine("Hola Mundo");
             Console.ReadKey();
+
+            string texto;
+            do
+            {
+                Console.WriteLine("Ingrese algun texto");
+                texto = Console.ReadLine();
+                Console.WriteLine("Usted ingresó: " + texto);
+
+            } while (texto != "fin");
+
+
         }
 }
 }
